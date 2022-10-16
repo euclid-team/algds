@@ -1,2 +1,4 @@
 rootProject.name = 'algds'
+include 'lab_codes:lab1'
+findProject(':lab_codes:lab1')?.name = 'lab1'
 
