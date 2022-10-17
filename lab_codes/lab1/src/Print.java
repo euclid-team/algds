@@ -1,4 +1,4 @@
-class print
+class Print
 { 
    public static void main(String args[]) 
    { 

@@ -1,5 +1,5 @@
-class casting {
-    public static void main(String args[]) 
+class Casting {
+    public static void main(String[] args)
     { 
 
         double a = 2;  // a = 2.0 (Implicit)

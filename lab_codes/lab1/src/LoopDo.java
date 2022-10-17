@@ -1,4 +1,4 @@
-public class loop_do {
+public class LoopDo {
   public static void main(String[] args) {
     int i = 0;
     do {

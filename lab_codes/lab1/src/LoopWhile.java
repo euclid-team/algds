@@ -1,4 +1,4 @@
-public class loop_while {
+public class LoopWhile {
   public static void main(String[] args) {
     int i = 0;
     while (i == 3) {

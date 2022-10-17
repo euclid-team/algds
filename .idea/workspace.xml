@@ -4,9 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="lab project">
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="upload lab 1">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/Hello_world.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/arr.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/Arr.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/arr_string.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/ArrString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/casting.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/Casting.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/divisions.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/Divisions.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/loop_do.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/LoopDo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/loop_for.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/LoopFor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/loop_while.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/LoopWhile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/operators.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/Operators.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/print.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/quadratic.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/Quadratic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/string_var.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/StringVar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab1/src/main/java/variables.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab1/src/variables.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -25,6 +40,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectId" id="2GDCZcDL8wgKeu9MbNE5eBkuYLE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -35,23 +53,49 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "jdk.selected.JAVA_MODULE": "17",
+    "last_opened_file_path": "C:/Users/Andreas/Desktop/algds/lab_codes/lab1/src/main/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src\main\java" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Arr">
+    <configuration name="Arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Arr" />
+      <module name="algds.lab_codes.lab1.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="arr_string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="arr_string" />
-      <module name="algds.lab_codes.lab1.main" />
+      <module name="algds.lab_codes.lab1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="casting" />
+      <module name="algds.lab_codes.lab1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Arr" />
         <item itemvalue="Application.arr_string" />
+        <item itemvalue="Application.casting" />
       </list>
     </recent_temporary>
   </component>
@@ -71,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1665914076072</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="upload lab 1">
+      <created>1665928484348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1665928484348</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -87,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="lab project" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab project" />
+    <MESSAGE value="upload lab 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload lab 1" />
   </component>
 </project>

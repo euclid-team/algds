@@ -1,4 +1,4 @@
-public class divisions {
+public class Divisions {
     public static void main(String args[]) 
     { 
         // Division
