@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="lab 2 first examples">
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="build subprojects">
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/NewLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/Overload.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +34,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="CurrentFile" />
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2GDCZcDL8wgKeu9MbNE5eBkuYLE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -60,16 +63,30 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Polymorphism">
-    <configuration name="Arr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Arr" />
-      <module name="algds.lab_codes.lab1.main" />
+  <component name="RunManager" selected="Application.MyMainClass">
+    <configuration name="MathExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MathExample" />
+      <module name="algds.lab_codes.lab2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MathExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MathExample" />
+    <configuration name="MethodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodExample" />
+      <module name="algds.lab_codes.lab2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyMainClass" />
+      <module name="algds.lab_codes.lab2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Overload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Overload" />
       <module name="algds.lab_codes.lab2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -82,27 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="arr_string" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arr_string" />
-      <module name="algds.lab_codes.lab1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="casting" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="casting" />
-      <module name="algds.lab_codes.lab1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyMainClass" />
+        <item itemvalue="Application.MethodExample" />
+        <item itemvalue="Application.Overload" />
         <item itemvalue="Application.Polymorphism" />
         <item itemvalue="Application.MathExample" />
-        <item itemvalue="Application.Arr" />
-        <item itemvalue="Application.arr_string" />
-        <item itemvalue="Application.casting" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666114958366</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="build subprojects">
+      <created>1666172387772</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1666172387775</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,6 +172,7 @@
     <MESSAGE value="upload lab 1" />
     <MESSAGE value="make lab1 module" />
     <MESSAGE value="lab 2 first examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab 2 first examples" />
+    <MESSAGE value="build subprojects" />
+    <option name="LAST_COMMIT_MESSAGE" value="build subprojects" />
   </component>
 </project>
