@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="build subprojects">
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/NewLine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/Overload.java" afterDir="false" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="lab2 codes">
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/FinalExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/InterfaceExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/Sub.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/ThisExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab2/src/MathExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab2/src/MyClass.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,6 +176,7 @@
     <MESSAGE value="make lab1 module" />
     <MESSAGE value="lab 2 first examples" />
     <MESSAGE value="build subprojects" />
-    <option name="LAST_COMMIT_MESSAGE" value="build subprojects" />
+    <MESSAGE value="lab2 codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2 codes" />
   </component>
 </project>
