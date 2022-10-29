@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="lab2 codes">
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/FinalExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/InterfaceExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/Sub.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab2/src/ThisExample.java" afterDir="false" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="lab2 code changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_codes/lab2/src/MathExample.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_codes/lab2/src/MyClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab2/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab2/src/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,16 +61,23 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MyMainClass">
-    <configuration name="MathExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MathExample" />
+  <component name="RunManager" selected="Application.MainClass (1)">
+    <configuration name="DeathlyHallows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeathlyHallows" />
       <module name="algds.lab_codes.lab2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MethodExample" />
+    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
+      <module name="algds.lab_codes.lab2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainClass" />
       <module name="algds.lab_codes.lab2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -88,15 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Overload" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Overload" />
-      <module name="algds.lab_codes.lab2.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polymorphism" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polymorphism" />
+    <configuration name="ThisExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ThisExample" />
       <module name="algds.lab_codes.lab2.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -104,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass (2)" />
+        <item itemvalue="Application.MainClass (1)" />
+        <item itemvalue="Application.DeathlyHallows" />
         <item itemvalue="Application.MyMainClass" />
-        <item itemvalue="Application.MethodExample" />
-        <item itemvalue="Application.Overload" />
-        <item itemvalue="Application.Polymorphism" />
-        <item itemvalue="Application.MathExample" />
+        <item itemvalue="Application.ThisExample" />
       </list>
     </recent_temporary>
   </component>
@@ -156,7 +151,21 @@
       <option name="project" value="LOCAL" />
       <updated>1666172387775</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="lab2 codes">
+      <created>1666823758388</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1666823758388</updated>
+    </task>
+    <task id="LOCAL-00007" summary="lab2 code changes">
+      <created>1666873241974</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1666873241974</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -177,6 +186,7 @@
     <MESSAGE value="lab 2 first examples" />
     <MESSAGE value="build subprojects" />
     <MESSAGE value="lab2 codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab2 codes" />
+    <MESSAGE value="lab2 code changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab2 code changes" />
   </component>
 </project>
