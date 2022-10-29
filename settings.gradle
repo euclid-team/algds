@@ -1,4 +1,6 @@
 include ':lab_codes:lab1'
 include 'lab_codes:lab2'
 findProject(':lab_codes:lab2')?.name = 'lab2'
+include 'lab_codes:lab3'
+findProject(':lab_codes:lab3')?.name = 'lab3'
 
