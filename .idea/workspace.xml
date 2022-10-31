@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="lab2 code changes">
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab3/src/VectorExample.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="link list example">
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab3/src/StrBufferExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab3/src/StrExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab3/src/VectorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab3/src/VectorExample.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,49 +63,49 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.VectorExample">
-    <configuration name="DeathlyHallows" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DeathlyHallows" />
-      <module name="algds.lab_codes.lab2.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="algds.lab_codes.lab2.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="algds.lab_codes.lab2.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MyMainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MyMainClass" />
-      <module name="algds.lab_codes.lab2.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VectorExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="VectorExample" />
+  <component name="RunManager" selected="Application.StrBufferExample">
+    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ArrayListExample" />
       <module name="algds.lab_codes.lab3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinkListExample" />
+      <module name="algds.lab_codes.lab3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrBufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrBufferExample" />
+      <module name="algds.lab_codes.lab3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StrExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StrExample" />
+      <module name="algds.lab_codes.lab3.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringBufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StringBufferExample" />
+      <module name="algds.lab_codes.lab3" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.VectorExample" />
-        <item itemvalue="Application.MainClass (2)" />
-        <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="Application.DeathlyHallows" />
-        <item itemvalue="Application.MyMainClass" />
+        <item itemvalue="Application.StrBufferExample" />
+        <item itemvalue="Application.StringBufferExample" />
+        <item itemvalue="Application.StrExample" />
+        <item itemvalue="Application.LinkListExample" />
+        <item itemvalue="Application.ArrayListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +174,35 @@
       <option name="project" value="LOCAL" />
       <updated>1667050378210</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="lab3 module">
+      <created>1667051270565</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667051270565</updated>
+    </task>
+    <task id="LOCAL-00010" summary="vector example">
+      <created>1667051344645</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667051344645</updated>
+    </task>
+    <task id="LOCAL-00011" summary="array example">
+      <created>1667251123856</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667251123856</updated>
+    </task>
+    <task id="LOCAL-00012" summary="link list example">
+      <created>1667251210933</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667251210933</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +224,10 @@
     <MESSAGE value="build subprojects" />
     <MESSAGE value="lab2 codes" />
     <MESSAGE value="lab2 code changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="lab2 code changes" />
+    <MESSAGE value="lab3 module" />
+    <MESSAGE value="vector example" />
+    <MESSAGE value="array example" />
+    <MESSAGE value="link list example" />
+    <option name="LAST_COMMIT_MESSAGE" value="link list example" />
   </component>
 </project>
