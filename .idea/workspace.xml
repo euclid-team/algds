@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="link list example">
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab3/src/StrBufferExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab3/src/StrExample.java" afterDir="false" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="string examples">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_codes/lab3/src/VectorExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/lab3/src/VectorExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -202,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667251210933</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="string examples">
+      <created>1667251543465</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667251543465</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,6 +233,7 @@
     <MESSAGE value="vector example" />
     <MESSAGE value="array example" />
     <MESSAGE value="link list example" />
-    <option name="LAST_COMMIT_MESSAGE" value="link list example" />
+    <MESSAGE value="string examples" />
+    <option name="LAST_COMMIT_MESSAGE" value="string examples" />
   </component>
 </project>
