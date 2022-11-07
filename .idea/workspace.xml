@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="string examples">
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="create lab4 module">
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab4/src/StackExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,30 +61,30 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StrBufferExample">
-    <configuration name="ArrayListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ArrayListExample" />
-      <module name="algds.lab_codes.lab3.main" />
+  <component name="RunManager" selected="Application.SimpleStackExample">
+    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueExample" />
+      <module name="algds.lab_codes.lab4.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkListExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinkListExample" />
-      <module name="algds.lab_codes.lab3.main" />
+    <configuration name="SimpleStackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SimpleStackExample" />
+      <module name="algds.lab_codes.lab4.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="StackExample" />
+      <module name="algds.lab_codes.lab4.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="StrBufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="StrBufferExample" />
-      <module name="algds.lab_codes.lab3.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StrExample" />
       <module name="algds.lab_codes.lab3.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -99,11 +99,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SimpleStackExample" />
+        <item itemvalue="Application.StackExample" />
+        <item itemvalue="Application.QueueExample" />
         <item itemvalue="Application.StrBufferExample" />
         <item itemvalue="Application.StringBufferExample" />
-        <item itemvalue="Application.StrExample" />
-        <item itemvalue="Application.LinkListExample" />
-        <item itemvalue="Application.ArrayListExample" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667251543465</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="create lab4 module">
+      <created>1667815606527</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667815606527</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -234,6 +241,7 @@
     <MESSAGE value="array example" />
     <MESSAGE value="link list example" />
     <MESSAGE value="string examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="string examples" />
+    <MESSAGE value="create lab4 module" />
+    <option name="LAST_COMMIT_MESSAGE" value="create lab4 module" />
   </component>
 </project>
