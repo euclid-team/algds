@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="binary search example">
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab5/src/BinarySearch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab_codes/lab5/BinarySearch.java" beforeDir="false" />
-    </list>
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="bubble sort example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -243,7 +239,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667841525707</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="binary search example">
+      <created>1667906380003</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1667906380003</updated>
+    </task>
+    <task id="LOCAL-00020" summary="bubble sort example">
+      <created>1667906614122</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1667906614122</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +285,7 @@
     <MESSAGE value="queue example" />
     <MESSAGE value="create lab5" />
     <MESSAGE value="binary search example" />
-    <option name="LAST_COMMIT_MESSAGE" value="binary search example" />
+    <MESSAGE value="bubble sort example" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble sort example" />
   </component>
 </project>
