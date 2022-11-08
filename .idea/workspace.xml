@@ -62,7 +62,7 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BinarySearch (1)">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="BinarySearch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="algds.lab_codes.lab5.main" />
@@ -77,9 +77,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QueueExample" />
-      <module name="algds.lab_codes.lab4.main" />
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
+      <module name="algds.lab_codes.lab5.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -100,11 +100,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BinarySearch (1)" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SimpleStackExample" />
         <item itemvalue="Application.StackExample" />
-        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
