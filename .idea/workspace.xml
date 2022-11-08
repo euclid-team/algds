@@ -58,7 +58,7 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.BubbleSort">
+  <component name="RunManager" selected="Application.LinearSearch">
     <configuration name="BinarySearch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="algds.lab_codes.lab5.main" />
@@ -80,6 +80,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LinearSearch" />
+      <module name="algds.lab_codes.lab5.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SimpleStackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="SimpleStackExample" />
       <module name="algds.lab_codes.lab4.main" />
@@ -87,20 +94,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StackExample" />
-      <module name="algds.lab_codes.lab4.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinearSearch" />
         <item itemvalue="Application.BubbleSort" />
         <item itemvalue="Application.BinarySearch (1)" />
         <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SimpleStackExample" />
-        <item itemvalue="Application.StackExample" />
       </list>
     </recent_temporary>
   </component>
