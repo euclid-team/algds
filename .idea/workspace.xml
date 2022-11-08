@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="stack examples">
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab4/src/QueueExample.java" afterDir="false" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="binary search example">
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab5/src/BinarySearch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/lab5/BinarySearch.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +33,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2GDCZcDL8wgKeu9MbNE5eBkuYLE" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -62,7 +62,21 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QueueExample">
+  <component name="RunManager" selected="Application.BinarySearch (1)">
+    <configuration name="BinarySearch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
+      <module name="algds.lab_codes.lab5.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
+      <module name="algds.lab_codes.lab5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QueueExample" />
       <module name="algds.lab_codes.lab4.main" />
@@ -84,27 +98,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrBufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StrBufferExample" />
-      <module name="algds.lab_codes.lab3.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StringBufferExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="StringBufferExample" />
-      <module name="algds.lab_codes.lab3" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BinarySearch (1)" />
+        <item itemvalue="Application.BinarySearch" />
         <item itemvalue="Application.SimpleStackExample" />
         <item itemvalue="Application.StackExample" />
         <item itemvalue="Application.QueueExample" />
-        <item itemvalue="Application.StrBufferExample" />
-        <item itemvalue="Application.StringBufferExample" />
       </list>
     </recent_temporary>
   </component>
@@ -222,7 +222,28 @@
       <option name="project" value="LOCAL" />
       <updated>1667832848897</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="queue example">
+      <created>1667841431268</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667841431268</updated>
+    </task>
+    <task id="LOCAL-00017" summary="create lab5">
+      <created>1667841476951</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667841476951</updated>
+    </task>
+    <task id="LOCAL-00018" summary="binary search example">
+      <created>1667841525707</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667841525707</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +272,9 @@
     <MESSAGE value="string examples" />
     <MESSAGE value="create lab4 module" />
     <MESSAGE value="stack examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="stack examples" />
+    <MESSAGE value="queue example" />
+    <MESSAGE value="create lab5" />
+    <MESSAGE value="binary search example" />
+    <option name="LAST_COMMIT_MESSAGE" value="binary search example" />
   </component>
 </project>
