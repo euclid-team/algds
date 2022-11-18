@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="bubble sort example" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="change import">
+      <change afterPath="$PROJECT_DIR$/lab_codes/lab5/src/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,17 +61,10 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinearSearch">
-    <configuration name="BinarySearch (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BinarySearch" />
-      <module name="algds.lab_codes.lab5.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.QuickSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
-      <module name="algds.lab_codes.lab5" />
+      <module name="algds.lab_codes.lab5.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -80,27 +76,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="LinearSearch" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
       <module name="algds.lab_codes.lab5.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SimpleStackExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SimpleStackExample" />
+    <configuration name="QueueExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QueueExample" />
       <module name="algds.lab_codes.lab4.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="QuickSort" />
+      <module name="algds.lab_codes.lab5.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinearSearch" />
+        <item itemvalue="Application.QuickSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.BinarySearch (1)" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.BinarySearch" />
-        <item itemvalue="Application.SimpleStackExample" />
+        <item itemvalue="Application.QueueExample" />
       </list>
     </recent_temporary>
   </component>
@@ -253,7 +256,42 @@
       <option name="project" value="LOCAL" />
       <updated>1667906614122</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="linear search example">
+      <created>1667906708933</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1667906708933</updated>
+    </task>
+    <task id="LOCAL-00022" summary="shaker sort example">
+      <created>1667906885083</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1667906885083</updated>
+    </task>
+    <task id="LOCAL-00023" summary="insertion example">
+      <created>1668783441079</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668783441079</updated>
+    </task>
+    <task id="LOCAL-00024" summary="merge sort example">
+      <created>1668783461436</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668783461436</updated>
+    </task>
+    <task id="LOCAL-00025" summary="change import">
+      <created>1668783540341</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1668783540341</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -286,6 +324,21 @@
     <MESSAGE value="create lab5" />
     <MESSAGE value="binary search example" />
     <MESSAGE value="bubble sort example" />
-    <option name="LAST_COMMIT_MESSAGE" value="bubble sort example" />
+    <MESSAGE value="linear search example" />
+    <MESSAGE value="shaker sort example" />
+    <MESSAGE value="insertion example" />
+    <MESSAGE value="merge sort example" />
+    <MESSAGE value="change import" />
+    <option name="LAST_COMMIT_MESSAGE" value="change import" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
+          <option name="timeStamp" value="9" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
