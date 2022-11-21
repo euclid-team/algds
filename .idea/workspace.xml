@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="change import">
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab5/src/QuickSort.java" afterDir="false" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="bubble sort example">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +49,8 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/Andreas/Desktop/algds/lab_codes/lab1/src/main/java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -61,7 +62,7 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QuickSort">
+  <component name="RunManager" selected="Application.BubbleSort">
     <configuration name="BinarySearch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BinarySearch" />
       <module name="algds.lab_codes.lab5.main" />
@@ -291,7 +292,21 @@
       <option name="project" value="LOCAL" />
       <updated>1668783540341</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="quick sort example">
+      <created>1668787618342</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668787618342</updated>
+    </task>
+    <task id="LOCAL-00027" summary="bubble sort example">
+      <created>1669038476568</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1669038476568</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -323,13 +338,14 @@
     <MESSAGE value="queue example" />
     <MESSAGE value="create lab5" />
     <MESSAGE value="binary search example" />
-    <MESSAGE value="bubble sort example" />
     <MESSAGE value="linear search example" />
     <MESSAGE value="shaker sort example" />
     <MESSAGE value="insertion example" />
     <MESSAGE value="merge sort example" />
     <MESSAGE value="change import" />
-    <option name="LAST_COMMIT_MESSAGE" value="change import" />
+    <MESSAGE value="quick sort example" />
+    <MESSAGE value="bubble sort example" />
+    <option name="LAST_COMMIT_MESSAGE" value="bubble sort example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
