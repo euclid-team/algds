@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="assignment 2 module" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="myarray class">
+      <change afterPath="$PROJECT_DIR$/lab_codes/erg2/src/MyClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_codes/erg2/src/MySearchTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab_codes/erg2/src/MySortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,19 +60,13 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src\main\java" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Andreas\Documents\algds\lab_codes\erg2\src" />
       <recent name="C:\Users\Andreas\Documents\algds\lab_codes\lab6\src" />
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab2\src" />
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HeapSort">
-    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BubbleSort" />
-      <module name="algds.lab_codes.lab5.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.MyClass">
     <configuration name="HeapSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="HeapSort" />
       <module name="algds.lab_codes.lab6.main" />
@@ -75,16 +74,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MySort" />
-      <module name="algds.lab_codes.lab6.main" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MergeSort" />
+      <module name="algds.lab_codes.lab5.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuickSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="QuickSort" />
-      <module name="algds.lab_codes.lab5.main" />
+    <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MyClass" />
+      <module name="algds.lab_codes.erg2.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MySort" />
+      <module name="algds.lab_codes.lab6.main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -98,11 +104,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MyClass" />
+        <item itemvalue="Application.MergeSort" />
         <item itemvalue="Application.MySort" />
         <item itemvalue="Application.sort" />
         <item itemvalue="Application.HeapSort" />
-        <item itemvalue="Application.QuickSort" />
-        <item itemvalue="Application.BubbleSort" />
       </list>
     </recent_temporary>
   </component>
@@ -325,7 +331,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669210167706</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="myarray class">
+      <created>1669210667466</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1669210667466</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -340,7 +353,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="make lab1 module" />
     <MESSAGE value="lab 2 first examples" />
     <MESSAGE value="build subprojects" />
     <MESSAGE value="lab2 codes" />
@@ -365,7 +377,8 @@
     <MESSAGE value="lab6 module" />
     <MESSAGE value="heapsort example" />
     <MESSAGE value="assignment 2 module" />
-    <option name="LAST_COMMIT_MESSAGE" value="assignment 2 module" />
+    <MESSAGE value="myarray class" />
+    <option name="LAST_COMMIT_MESSAGE" value="myarray class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
