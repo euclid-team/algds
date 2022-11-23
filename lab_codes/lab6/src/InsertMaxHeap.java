@@ -1,26 +1,23 @@
 public class InsertMaxHeap {
-    static void heapify(int arr[], int N, int i)
+    static void heapify(int arr[], int n, int i)
     {
-        int largest = i; // Initialize largest as root
-        int l = 2 * i + 1; // left = 2*i + 1
-        int r = 2 * i + 2; // right = 2*i + 2
+        int parent = (i - 1) / 2;
 
-        // If left child is larger than root
-        if (l < N && arr[l] > arr[largest])
-            largest = l;
+        if (arr[parent] > 0) {
+            // For Max-Heap
+            // If current node is greater than its parent
+            // Swap both of them and call heapify again
+            // for the parent
+            if (arr[i] > arr[parent]) {
 
-        // If right child is larger than largest so far
-        if (r < N && arr[r] > arr[largest])
-            largest = r;
+                // swap arr[i] and arr[parent]
+                int temp = arr[i];
+                arr[i] = arr[parent];
+                arr[parent] = temp;
 
-        // If largest is not root
-        if (largest != i) {
-            int swap = arr[i];
-            arr[i] = arr[largest];
-            arr[largest] = swap;
-
-            // Recursively heapify the affected sub-tree
-            heapify(arr, N, largest);
+                // Recursively heapify the parent node
+                heapify(arr, n, parent);
+            }
         }
     }
 
@@ -34,15 +31,14 @@ public class InsertMaxHeap {
 
         // Heapify the new node following a
         // Bottom-up approach
-        heapify(arr, n, n - 1);
+        heapify(arr, n, n- 1);
 
         // return new size of Heap
         return n;
     }
-    void printArray(int arr[])
+    void printArray(int arr[], int N)
     {
-        int n = arr.length;
-        for (int i=0; i<n; ++i)
+        for (int i=0; i<N; ++i)
             System.out.print(arr[i] + " ");
         System.out.println();
     }
@@ -51,7 +47,7 @@ public class InsertMaxHeap {
     {
         InsertMaxHeap ob = new InsertMaxHeap();
         int[] arr = new int[100];
-        int N = 6;
+        int N = 7;
         arr[0]= 90;
         arr[1]= 34;
         arr[2]=64;
@@ -60,9 +56,11 @@ public class InsertMaxHeap {
         arr[5]=11;
         arr[6]=25;
 
-        insertNode(arr, N, 30);
+        N=insertNode(arr, N, 30);
+        N=insertNode(arr, N, 35);
+
         System.out.println("New Max Heap");
-        ob.printArray(arr);
+        ob.printArray(arr, N);
     }
 
 }
