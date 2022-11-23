@@ -10,6 +10,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/lab_codes" />
+            <option value="$PROJECT_DIR$/lab_codes/erg2" />
             <option value="$PROJECT_DIR$/lab_codes/lab1" />
             <option value="$PROJECT_DIR$/lab_codes/lab2" />
             <option value="$PROJECT_DIR$/lab_codes/lab3" />
