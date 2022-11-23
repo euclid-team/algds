@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="heapsort example">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-    </list>
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="assignment 2 module" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -322,7 +318,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669153847235</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="assignment 2 module">
+      <created>1669210167706</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1669210167706</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -337,7 +340,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="upload lab 1" />
     <MESSAGE value="make lab1 module" />
     <MESSAGE value="lab 2 first examples" />
     <MESSAGE value="build subprojects" />
@@ -362,7 +364,8 @@
     <MESSAGE value="bubble sort example" />
     <MESSAGE value="lab6 module" />
     <MESSAGE value="heapsort example" />
-    <option name="LAST_COMMIT_MESSAGE" value="heapsort example" />
+    <MESSAGE value="assignment 2 module" />
+    <option name="LAST_COMMIT_MESSAGE" value="assignment 2 module" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
