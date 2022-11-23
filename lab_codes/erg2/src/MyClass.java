@@ -44,6 +44,15 @@ public class MyClass {
     {
         System.out.println(MySortTest.mySortTest(20, 230, 0, 0, 123));
         System.out.println(MySearchTest.mySearchTest(100, 123, 28453, 7, 0, 0, 0));
+        //alternative you can create manual a MyArray object and run your test
+        MyArray array = new MyArray(100, 150);
+
+        boolean sorting_correct = array.inIncreasingOrder();
+        boolean searching_correct=array.checkSearch(1, 15);
+        long numOfComparisons = array.getNumOfComparisons();
+        long numOfReads = array.getNumOfReads();
+        long numOfAssignments = array.getNumOfAssignments();
+
     }
 
 
