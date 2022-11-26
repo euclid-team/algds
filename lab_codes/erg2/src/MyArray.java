@@ -2,15 +2,20 @@ import java.util.Random;
 import java.util.Arrays;
 
 public class MyArray {
+
+	private static final long Version = 1000L;
+
 	public final int length;
 
 	private int[] A;
 	private long numOfComparisons;
 	private long numOfSwaps;
 	private long numOfCopies;
+	private long numOfCopiesToOtherArray;
 	private long numOfReads;
 	private long numOfAssignments;
 	private long numOfChecks;
+	private long numOfFills;
 	long seed;
 
 	public MyArray(int size, long seed) {
@@ -22,9 +27,11 @@ public class MyArray {
 		numOfComparisons = 0;
 		numOfSwaps = 0;
 		numOfCopies = 0;
+		numOfCopiesToOtherArray = 0;
 		numOfReads = 0;
 		numOfAssignments = 0;
 		numOfChecks = 0;
+		numOfFills = 0;
 
 		this.seed = seed;
 
@@ -39,6 +46,18 @@ public class MyArray {
 
 	private boolean checkIndex(int pos) {
 		return (pos >= 0 && pos < length);
+	}
+
+	public void fillIncreasingValues(int from, int to, int low, int high) {
+		for (int pos = from; pos <= to; pos++ ) {
+			Random random = new Random();
+			int[] array = random.ints(to - from + 1, low, high).toArray();
+			Arrays.sort(array);
+			for (int i = 0; i < array.length; i++ ) {
+				A[from + i] = array[i];
+			}
+		}
+		numOfFills++;
 	}
 
 	public int compToValue(int pos, int value) {
@@ -91,6 +110,24 @@ public class MyArray {
 		}
 	}
 
+	// Copy a value to an auxiliary array (for MergeSort)
+	public void copyToAuxiliaryArray(int pos1, MyArray B, int pos2) {
+		numOfCopiesToOtherArray++;
+		if (checkIndex(pos1) && B.checkIndex(pos2)) {
+			B.set(pos2, A[pos1]);
+		}
+	}
+
+	// Copy a value to an auxiliary array (for MergeSort)
+	public void copyRangeToMainArray(MyArray B, int start, int end) {
+		numOfCopiesToOtherArray++;
+		for (int pos = start; pos <=end; pos++) {
+			if (checkIndex(pos) && B.checkIndex(pos)) {
+				B.set(pos, A[pos]);
+			}
+		}
+	}
+
 	public int get(int pos) {
 		numOfReads++;
 		if (checkIndex(pos)) {
@@ -108,9 +145,16 @@ public class MyArray {
 	}
 
 	public boolean inIncreasingOrder() {
+		int low = 0;
+		int high = length-1;
+		boolean result = inIncreasingOrder(low, high);
+		return result;
+	}
+
+	public boolean inIncreasingOrder(int low, int high) {
 		numOfChecks++;
 		boolean result = true;
-		for (int i = 0; i < length - 1; i++) {
+		for (int i = low; i < high; i++) {
 			if (A[i] > A[i + 1]) {
 				result = false;
 				break;
@@ -181,12 +225,20 @@ public class MyArray {
 		return numOfCopies;
 	}
 
+	public long getNumOfCopiesToOtherArray() {
+		return numOfCopiesToOtherArray;
+	}
+
 	public long getNumOfReads() {
 		return numOfReads;
 	}
 
 	public long getNumOfAssignments() {
 		return numOfAssignments;
+	}
+
+	public long getNumOfFills() {
+		return numOfFills;
 	}
 
 	public long getNumOfChecks() {

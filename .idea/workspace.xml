@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="helper codes">
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab6/src/MaxHeap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab_codes/lab6/src/MaxHeapify.java" afterDir="false" />
+    <list default="true" id="1ac86643-6bd2-4f8a-a88d-a66e6cbfcfc6" name="Changes" comment="insert element maxheap">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab_codes/erg2/src/MyArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/lab_codes/erg2/src/MyArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +50,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
+    "settings.editor.selected.configurable": "vcs.Git"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -65,7 +64,21 @@
       <recent name="C:\Users\Andreas\Desktop\algds\lab_codes\lab1\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MaxHeapify">
+  <component name="RunManager" selected="Application.MyClass">
+    <configuration name="DeleteRoot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DeleteRoot" />
+      <module name="algds.lab_codes.lab6.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InsertMaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InsertMaxHeap" />
+      <module name="algds.lab_codes.lab6.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxHeap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MaxHeap" />
       <module name="algds.lab_codes.lab6.main" />
@@ -80,13 +93,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MergeSort" />
-      <module name="algds.lab_codes.lab5.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MyClass" />
       <module name="algds.lab_codes.erg2.main" />
@@ -94,20 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MySort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MySort" />
-      <module name="algds.lab_codes.lab6.main" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DeleteRoot" />
+        <item itemvalue="Application.InsertMaxHeap" />
         <item itemvalue="Application.MaxHeap" />
         <item itemvalue="Application.MaxHeapify" />
         <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.MergeSort" />
-        <item itemvalue="Application.MySort" />
       </list>
     </recent_temporary>
   </component>
@@ -351,7 +350,28 @@
       <option name="project" value="LOCAL" />
       <updated>1669212970753</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="maxheap example">
+      <created>1669242803239</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1669242803239</updated>
+    </task>
+    <task id="LOCAL-00035" summary="maxheapify example">
+      <created>1669242823820</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1669242823820</updated>
+    </task>
+    <task id="LOCAL-00036" summary="insert element maxheap">
+      <created>1669243911052</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1669243911052</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -366,9 +386,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="build subprojects" />
-    <MESSAGE value="lab2 codes" />
-    <MESSAGE value="lab2 code changes" />
     <MESSAGE value="lab3 module" />
     <MESSAGE value="vector example" />
     <MESSAGE value="array example" />
@@ -391,7 +408,10 @@
     <MESSAGE value="assignment 2 module" />
     <MESSAGE value="myarray class" />
     <MESSAGE value="helper codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="helper codes" />
+    <MESSAGE value="maxheap example" />
+    <MESSAGE value="maxheapify example" />
+    <MESSAGE value="insert element maxheap" />
+    <option name="LAST_COMMIT_MESSAGE" value="insert element maxheap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
