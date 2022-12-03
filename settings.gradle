@@ -11,4 +11,6 @@ include 'lab_codes:lab6'
 findProject(':lab_codes:lab6')?.name = 'lab6'
 include 'lab_codes:erg2'
 findProject(':lab_codes:erg2')?.name = 'erg2'
+include 'lab_codes:lab7'
+findProject(':lab_codes:lab7')?.name = 'lab7'
 
