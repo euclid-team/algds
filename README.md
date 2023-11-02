@@ -1,4 +1,4 @@
-![image](https://github.com/euclid-team/algds/assets/21145894/6266dee4-1543-4198-896a-1a6acc8976a4)# Algorithms and Data Structures
+# Algorithms and Data Structures
 
 In this repository you will found a collection of codes used as examples in "Algorithms and Data Structures" lab.
 
