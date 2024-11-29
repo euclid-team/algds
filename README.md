@@ -1,4 +1,4 @@
-# Algorithms and Data Structures
+# Algorithms and Data Structures (AlgDS)
 
 In this repository you will found a collection of codes used as examples in "Algorithms and Data Structures" lab.
 
