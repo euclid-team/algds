@@ -30,9 +30,9 @@ This lab serves as an introduction to Java with a focus on Functional Programmin
 * Linked List
 * String
 * String Buffers
-* Vectors
+* Vector
 
 ## Lab 4: Abstract Data Types
 
-* Queue
+* Queue 
 * Stack
